@@ -1,14 +1,16 @@
 <header>
-  <div class="flag">
-    <div class="diagonal-1"></div>
-    <div class="diagonal-2"></div>
-  </div>
+  {% render "flags/scotland" %}
   <h1 class="text-4xl font-bold text-center text-sky-800">The Life Of Aye</h1>
 </header>
 
 <nav class="my-3">
   <ul class="flex place-content-around">
-    <li><a class="p-1 font-bold focus:text-amber-600 hover:text-amber-600 text-sky-800" href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a class="p-1 font-bold focus:text-amber-600 hover:text-amber-600 text-sky-800" href="{{ '/about' | relative_url }}">About</a></li>
-    <li><a class="p-1 font-bold focus:text-amber-600 hover:text-amber-600 text-sky-800" href="{{ '/projects' | relative_url }}">Projects</a></li> </ul>
+    <li><a class="p-1 font-bold focus:text-amber-600 hover:text-amber-600 text-sky-800"
+           href="{{ '/' | relative_url }}">Home</a></li>
+    <li><a class="p-1 font-bold focus:text-amber-600 hover:text-amber-600 text-sky-800"
+           href="{{ '/about' | relative_url }}">About</a></li>
+    <li><a class="p-1 font-bold focus:text-amber-600 hover:text-amber-600 text-sky-800"
+           href="{{ '/places' | relative_url }}">Places</a></li>
+    <li><a class="p-1 font-bold focus:text-amber-600 hover:text-amber-600 text-sky-800"
+           href="{{ '/projects' | relative_url }}">Projects</a></li> </ul>
 </nav>

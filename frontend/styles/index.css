@@ -10,14 +10,14 @@
 @layer base {
   .highlight {
     @apply border;
-    @apply border-salireblue-500;
+    @apply border-sky-900;
   }
 }
 
 @layer components {
   .flag {
     @apply mx-auto;
-    @apply bg-sky-500;
+    @apply bg-saltireblue-500;
     @apply w-36;
     @apply h-24;
     @apply overflow-hidden;

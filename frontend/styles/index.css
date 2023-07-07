@@ -18,7 +18,7 @@
   .flag {
     @apply mx-auto;
     @apply bg-saltireblue-500;
-    @apply w-36;
+    @apply w-40;
     @apply h-24;
     @apply overflow-hidden;
   }
@@ -29,7 +29,7 @@
     @apply w-48;
     @apply origin-center;
     @apply translate-y-[35px];
-    @apply -translate-x-[25px];
+    @apply -translate-x-[15px];
     @apply rotate-[30deg];
   }
   .diagonal-2 {
@@ -38,7 +38,7 @@
     @apply w-48;
     @apply origin-center;
     @apply translate-y-[20px];
-    @apply -translate-x-[25px];
+    @apply -translate-x-[15px];
     @apply rotate-[-30deg];
   }
 }

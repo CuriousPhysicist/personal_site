@@ -10,7 +10,7 @@
 @layer base {
   .highlight {
     @apply border;
-    @apply border-sky-900;
+    @apply border-salireblue-500;
   }
 }
 

@@ -1,0 +1,22 @@
+.england {
+  @apply bg-white;
+}
+
+.england .bar-1 {
+  @apply bg-red-600;
+  @apply h-5;
+  @apply w-48;
+  @apply origin-center;
+  @apply translate-y-[37px];
+  @apply -translate-x-[15px];
+}
+
+.england .bar-2 {
+  @apply bg-red-600;
+  @apply h-5;
+  @apply w-48;
+  @apply origin-center;
+  @apply translate-y-[15px];
+  @apply -translate-x-[15px];
+  @apply rotate-[90deg];
+}

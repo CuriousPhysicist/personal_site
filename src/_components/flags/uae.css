@@ -1,0 +1,25 @@
+  .uae {
+    @apply bg-black;
+    @apply relative;
+  }
+
+  .uae .bar-1 {
+    @apply bg-red-600;
+    @apply absolute;
+    @apply left-0;
+    @apply h-full;
+    @apply w-1/5;
+  }
+
+  .uae .bar-2 {
+    @apply bg-green-800;
+    @apply h-1/3;
+    @apply w-48;
+  }
+
+  .uae .bar-3 {
+    @apply bg-white;
+    @apply h-1/3;
+    @apply w-48;
+  }
+

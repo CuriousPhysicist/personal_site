@@ -1,0 +1,9 @@
+.wales {
+  @apply bg-green-500;
+}
+
+.wales .bar-1 {
+  @apply bg-white;
+  @apply h-1/2;
+  @apply w-full;
+}

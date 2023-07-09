@@ -6,10 +6,10 @@
 
   </head>
   <body class="bg-amber-50 {{ data.layout }} {{ data.page_class }}">
-    <div class="max-w-5xl min-h-screen mx-auto my-2">
+    <div class="max-w-5xl min-h-full mx-auto my-2">
       {% render "navbar", metadata: site.metadata, resource: resource %}
 
-      <main class="flex my-3 flex-col mx-auto space-y-6 place-items-center">
+      <main class="flex flex-col h-screen mx-auto my-3 min-h-max space-y-6 place-items-center">
         {{ content }}
       </main>
 

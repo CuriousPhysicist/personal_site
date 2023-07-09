@@ -15,10 +15,6 @@
     @apply overflow-hidden;
   }
 
-  .scotland {
-    @apply bg-saltireblue-500;
-  }
-
   .england {
     @apply bg-white;
   }
@@ -52,16 +48,6 @@
     @apply w-1/5;
   }
 
-  .scotland .bar-1 {
-    @apply bg-white;
-    @apply h-5;
-    @apply w-48;
-    @apply origin-center;
-    @apply translate-y-[35px];
-    @apply -translate-x-[15px];
-    @apply rotate-[30deg];
-  }
-
   .wales .bar-1 {
     @apply bg-white;
     @apply h-1/2;
@@ -75,16 +61,6 @@
     @apply origin-center;
     @apply translate-y-[37px];
     @apply -translate-x-[15px];
-  }
-
-  .scotland .bar-2 {
-    @apply bg-white;
-    @apply h-5;
-    @apply w-48;
-    @apply origin-center;
-    @apply translate-y-[15px];
-    @apply -translate-x-[15px];
-    @apply rotate-[-30deg];
   }
 
   .england .bar-2 {

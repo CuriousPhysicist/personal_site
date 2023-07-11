@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'quote': ['"Nova Oval"', 'sans-serif']
+      },
       "colors": {
         "saltireblue": {
           50: "#E0F0FF",

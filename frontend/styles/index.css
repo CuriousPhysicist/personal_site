@@ -7,6 +7,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Nova+Oval");
+
 @layer components {
   .flag {
     @apply shrink-0;

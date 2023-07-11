@@ -1,5 +1,6 @@
 /* If you need to add @import statements, do so up here */
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import "jit-refresh.css"; /* triggers frontend rebuilds */
 
 /* Set up Tailwind imports */
@@ -7,7 +8,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Nova+Oval");
 
 @layer components {
   .flag {

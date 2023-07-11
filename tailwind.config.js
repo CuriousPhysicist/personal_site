@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'quote': ['"Nova Oval"', 'sans-serif']
+        'quote': ['Caveat', 'sans-serif']
       },
       "colors": {
         "saltireblue": {

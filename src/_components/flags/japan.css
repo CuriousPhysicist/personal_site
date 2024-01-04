@@ -1,0 +1,13 @@
+.japan {
+  @apply bg-white;
+}
+
+.japan .circle-1 {
+  @apply bg-red-600;
+  @apply h-16;
+  @apply w-16;
+  @apply origin-center;
+  @apply translate-y-[15px];
+  @apply translate-x-[50px];
+  @apply rounded-full;
+}

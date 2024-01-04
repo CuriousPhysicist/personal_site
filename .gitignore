@@ -39,3 +39,6 @@ frontend/styles/jit-refresh.css
 
 # Local Netlify folder
 .netlify
+
+# Ignore files created by gutentags for vim/neovim
+tags*
